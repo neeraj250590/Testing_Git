@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mycompany.app.Calling$toGettingData">
+        <methods>
+          <include name="toReadDataFile"/>
+          <include name="toInvokeBrowser"/>
+        </methods>
+      </class> <!-- com.mycompany.app.Calling$toGettingData -->
+      <class name="com.mycompany.app.TakeScreenShotEx1">
+        <methods>
+          <include name="takeSnap"/>
+          <include name="toInvokeBrowser"/>
+        </methods>
+      </class> <!-- com.mycompany.app.TakeScreenShotEx1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
